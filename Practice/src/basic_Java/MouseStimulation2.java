@@ -25,6 +25,8 @@ public class MouseStimulation2 {
 		
 		Actions act =new Actions(driver);
 		act.dragAndDrop(drag, drop).build().perform();
+		
+		
 	}
 
 }
